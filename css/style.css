@@ -4,17 +4,4 @@ body {
   font-size: 1em;
 }
 
-h1 {
-  color: red;
-}
-
-table,
-th,
-td {
-  border: 1px solid black;
-}
-
-th,
-td {
-  padding: 10px;
-}
+/* ---------------------------------------- */
