@@ -4,35 +4,31 @@ h1 {
 }
 
 .wrapper {
-  padding-top: 50px;
+  padding: 50px 15px 15px 15px;
   width: 550px;
   margin: 0 auto;
+  font-size: 24px;
 }
 .action {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+  margin: 30px auto;
   height: 70px;
 }
 .input {
-  width: 250px;
+  width: 75%;
   height: 45px;
-  font-size: 21px;
   margin-right: 20px;
   padding: 7px;
+  font-size: 24px;
 }
 .add__task {
   width: 100px;
   height: 45px;
 }
 
-.tasks {
-  width: 500px;
-  margin: 0 auto;
-}
 .task {
-  font-size: 24px;
   margin-bottom: 20px;
   border: 1px solid gray;
   border-radius: 10px;
@@ -56,13 +52,11 @@ h1 {
 }
 
 .filter {
-  width: 500px;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
   border: 1px solid gray;
   padding: 20px;
-  font-size: 26px;
   border-radius: 10px;
 }
 
@@ -70,4 +64,24 @@ h1 {
   display: flex;
   align-items: center;
   gap: 7px;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 400px;
+    font-size: 20px;
+  }
+  .input {
+    font-size: 20px;
+  }
+  .filter {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    width: 35ё0px;
+  }
 }
