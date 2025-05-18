@@ -5,7 +5,7 @@ h1 {
 
 .wrapper {
   padding-top: 50px;
-  width: 920px;
+  width: 550px;
   margin: 0 auto;
 }
 .action {
@@ -13,17 +13,18 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 30px 0;
+  height: 70px;
 }
 .input {
-  width: 200px;
-  height: 35px;
+  width: 250px;
+  height: 45px;
   font-size: 21px;
   margin-right: 20px;
   padding: 7px;
 }
 .add__task {
   width: 100px;
-  height: 35px;
+  height: 45px;
 }
 
 .tasks {
@@ -38,9 +39,9 @@ h1 {
   padding: 10px;
   display: flex;
   align-items: center;
+  height: 70px;
 }
-.task__checkbox {
-}
+
 .task__name {
   margin: 0 10px;
 }
