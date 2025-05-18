@@ -1,0 +1,72 @@
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 50px;
+  width: 920px;
+  margin: 0 auto;
+}
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.input {
+  width: 200px;
+  height: 35px;
+  font-size: 21px;
+  margin-right: 20px;
+  padding: 7px;
+}
+.add__task {
+  width: 100px;
+  height: 35px;
+}
+
+.tasks {
+  width: 500px;
+  margin: 0 auto;
+}
+.task {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.task__checkbox {
+}
+.task__name {
+  margin: 0 10px;
+}
+.task__close {
+  width: 30px;
+  height: 30px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.filter {
+  width: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 26px;
+  border-radius: 10px;
+}
+
+.filter > label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}

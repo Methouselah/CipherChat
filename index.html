@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>JS Place</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>To do list</h1>
+
+      <form class="action" action="#">
+        <input
+          type="text"
+          class="input"
+          name="task"
+          placeholder="New task..."
+        />
+        <input type="submit" value="Add" class="add__task" />
+      </form>
+      <form class="filter">
+        <label>
+          <input type="radio" name="options" value="all" checked />
+          Все
+        </label>
+
+        <label>
+          <input type="radio" name="options" value="done" />
+          Выполненные
+        </label>
+
+        <label>
+          <input type="radio" name="options" value="active" />
+          Активные
+        </label>
+      </form>
+
+      <div class="tasks"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
